@@ -43,3 +43,47 @@ li:nth-child(1){
 }
 
 /*Twitter*/
+input{
+  font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+  font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+  border-radius: 6px;
+  height:2em;
+  border:1px solid grey;
+}
+
+img{
+  height:2em;
+  border-radius: .5em;
+}
+
+img.feather{
+  color:yellow;
+  background-color:yellow;
+/*   padding-top:2px; */
+}
+
+button{
+  height:3em;
+  border-radius: .5em;
+  background-color:	#1576A1;
+  border: none;
+  padding-bottom:2em;
+  color:white;
+  padding-right:2em;
+}
+
+ul{
+  display:flex;
+  list-style:none;
+  padding:1em;
+}
+
+li{
+  padding:.5em;
+}
+
+li:nth-child(4){
+  margin: auto;
+}

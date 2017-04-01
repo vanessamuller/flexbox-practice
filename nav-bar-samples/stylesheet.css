@@ -23,3 +23,23 @@ li{
 }
 
 /*Air bnb*/
+ul{
+  display:flex;
+  list-style:none;
+  flex-wrap:nowrap;
+  align-items:center;
+}
+
+img{
+  height:3em;
+}
+
+li{
+  padding:.5em;
+}
+
+li:nth-child(1){
+  margin-right:auto;
+}
+
+/*Twitter*/

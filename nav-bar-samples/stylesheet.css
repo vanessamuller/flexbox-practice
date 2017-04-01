@@ -1,0 +1,25 @@
+/*Bootstrap*/
+ul{
+  display:flex;
+  list-style:none;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+img{
+  height:1em;
+}
+
+li{
+  flex-grow: 0;
+}
+
+li:nth-child(1){
+  margin-right: auto;
+}
+
+li{
+  padding:1em;
+}
+
+/*Air bnb*/
